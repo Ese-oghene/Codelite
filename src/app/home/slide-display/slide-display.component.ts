@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './slide-display.component.css'
 })
 export class SlideDisplayComponent {
+  isSidebarOpen = false;
+
+  toggleSidebar() {
+    this.isSidebarOpen = !this.isSidebarOpen;
+  } 
 
 }
