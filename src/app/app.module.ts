@@ -10,6 +10,8 @@ import { SignupComponent } from './home/signup/signup.component';
 import { ContactPageComponent } from './home/contact-page/contact-page.component';
 import { AboutPageComponent } from './home/about-page/about-page.component';
 import { TestimonialPageComponent } from './home/testimonial-page/testimonial-page.component';
+import { HeaderComponent } from './home/header/header.component';
+import { GridDisplayComponent } from './home/grid-display/grid-display.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { TestimonialPageComponent } from './home/testimonial-page/testimonial-pa
     SignupComponent,
     ContactPageComponent,
     AboutPageComponent,
-    TestimonialPageComponent
+    TestimonialPageComponent,
+    HeaderComponent,
+    GridDisplayComponent
   ],
   imports: [
     BrowserModule,

@@ -1,148 +1,78 @@
+/* hero section */
+/* .hero-section{
+  position: relative;
+  color: #fff;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
 
-/* Navbar */
-.custom-toggler {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 20px;
-    background: transparent;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    z-index: 1000; 
-  }
-  
-  .custom-navbar {
-    background: var(--custom-navbarvid) !important; 
-  }
-  
-  .custom-navbar .nav-link {
-    font-weight: bold;
-    color: var( --custom-navbarvid-link) !important;
-  }
-  
-  
-  .auth-buttons {
-    margin-left: auto;
-  }
-  
-  .auth-buttons .btn {
-    font-size: 0.9rem;
-    padding: 8px 20px;
-    border-radius: 5px;
-  }
-  
-  .custom-toggler:focus {
-    outline: none;
-  }
-  
-  .custom-toggler .line {
-    height: 3px;
-    width: 100%;
-    background-color: var(--custom-toggler-backgroud); 
-    border-radius: 2px;
-    transition: all 0.3s ease;
-  }
-  
-  
-  .custom-toggler .line:nth-child(3) {
-    width: 70%; 
-    margin-right: auto; 
-  }
-  
-  
-  /* Adjust size for larger screens */
-  @media (min-width: 768px) {
-    .custom-toggler {
-      width: 40px;
-      height: 24px;
-    }
-  
-    .custom-toggler .line {
-      height: 4px;
-    }
-  }
-  
-    .action-buttons {
-      margin-left: auto;
-    }
-    
-    .action-buttons .btn {
-      font-size: 0.9rem;
-      padding: 8px 20px;
-      border-radius: 5px;
-    }
-    
-    .search-button-sm {
-      padding-top: 10px;
-    }
-    
-    /* Responsive Behavior */
-    @media (max-width: 992px) {
-      .action-buttons {
-        display: none; 
-      }
-    
-      .search-button-sm {
-        display: flex; 
-      }
-    }
-    
-    
-    /* Responsive behavior */
-    @media (max-width: 992px) {
-      .auth-buttons {
-        display: none; 
-      }
-    }
-    
-  
-  /* Navbar */
-  .custom-navbar .nav-link {
-    font-weight: bold;
-    color: black !important; 
-  }
-  
-  /* Sidebar */
-  .custom-offcanvas {
-    width: 50%;
-    background-color: var(--custom-offcanvasvid); 
-  }
-  
-  .custom-offcanvas .list-unstyled a {
-    color: var(--custom-offcanvasvid-a); 
-    text-decoration: none;
-    display: block;
-    padding: 10px;
-  }
-  
-  
-  /* Register Button */
-  .auth-buttons .btn-primary {
-    background-color: var(--auth-buttonsvid-primary); 
-    color: var(--auth-buttonsvid-primary-color) !important; 
-  }
-  
-  .auth-buttons .btn-outline-primary {
-    color: rgb(18, 17, 17) !important; 
-    border-color: var(--auth-buttons-btn-outline-primary); 
-  }
-  
-  .auth-buttons .btn:hover {
-    background-color: var(--auth-buttonsvid-hover) !important;
-    color: #ffff !important; 
-  }
-  
-  .logo {
-    color: var(--logovid);
-    font-size: 1.5em;
-    font-weight: bold;
-  }
+.hero-section .background-image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
 
-  .links .nav-item a
-  
-  .logo-red {
-    color: red;
-  }
-  
+.hero-section .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--hero-section-overlay);
+  z-index: 2;
+}
+
+.hero-section .container {
+ position: relative;
+ z-index: 2; 
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: var(--hero-section-p);
+}
+
+.hero-section .btn{
+  font-size: 1rem;
+  padding: 0.75rem 2rem;
+  border-radius: 5px;
+}
+
+.hero-section .btn-primary{
+  background-color: var(--hero-section-primary);
+  border: none;
+}
+
+.hero-section .btn-primary:hover{
+  background-color: var(--hero-section-primary-hover);
+  color: #fff;
+}
+
+.hero-section .btn-outline-light{
+  color: var(--hero-section-outline-light);
+  border: 2px solid var(--hero-section-outline-light);
+}
+
+.hero-section .btn-outline-light:hover{
+  background-color: var(--hero-section-outline-light-hover);
+  color: #5756A3;
+}
+
+.hero-section .btn-light {
+  background-color: var(--hero-section-btn-light);
+  color: #5756A3;
+}
+
+.hero-section .btn-light:hover{
+  background-color: var(--hero-section-btn-light-hover);
+  color: #fff;
+} */

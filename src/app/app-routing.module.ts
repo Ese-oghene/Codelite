@@ -6,7 +6,7 @@ import { SignupComponent } from './home/signup/signup.component';
 import { ContactPageComponent } from './home/contact-page/contact-page.component';
 import { AboutPageComponent } from './home/about-page/about-page.component';
 import { TestimonialPageComponent } from './home/testimonial-page/testimonial-page.component';
-
+import { HeaderComponent } from './home/header/header.component';
 const routes: Routes = [
   { path: '', component: SlideDisplayComponent },
   { path: 'login', component: LoginComponent },
@@ -14,6 +14,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactPageComponent },
   { path: 'about', component: AboutPageComponent },
   { path: 'testimonials', component: TestimonialPageComponent },
+  { path: 'header', component: HeaderComponent},
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 

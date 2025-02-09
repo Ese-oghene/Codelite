@@ -1,0 +1,47 @@
+/* Fullscreen Hero Section */
+.hero {
+  background: no-repeat center center/cover;
+  height: 100vh; 
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  color: white; 
+}
+
+/* Ensure navbar remains visible on hero image */
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background: transparent !important; /* Keeps navbar over image */
+}
+
+/* Sidebar Blur Effect */
+@media (max-width: 991px) {
+  .sidebar {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+  }
+}
+
+/* Custom Signup Button */
+.signup {
+  background-color: #f94ca4;
+  padding: 6px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+/* Adjust Navbar Text */
+.navbar .nav-link {
+  color: white !important;
+}
+
+.navbar .nav-link:hover {
+  color: #f94ca4 !important;
+}
+

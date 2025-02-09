@@ -1,0 +1,33 @@
+<!-- <p>grid-display works!</p> -->
+<div class="container py-5">
+    <!-- Section Title -->
+    <div class="section-title text-center mb-4">
+      <h2>Our Featured Clothes</h2>
+    </div>
+  
+    <div class="row">
+      <!-- Product Cards -->
+      <div class="col-6 col-sm-4 col-md-4 mb-4" *ngFor="let product of products">
+        <div class="card" [routerLink]="['/product-details/horizontal']"  style="cursor: pointer;">
+          <div class="discount-badge">-16%</div>
+          <i
+            class="fas fa-heart love-badge"
+            [ngClass]="{ 'active': product.isLoved }"
+            (click)="toggleLove(product)"
+          ></i>
+          <img src="{{ product.image }}" alt="Product Image" class="card-img-top">
+          <div class="card-body text-center">
+            <h5 class="card-title">{{ product.name }}</h5>
+            <div class="rating mb-2">
+              <i
+                class="fas fa-star"
+                *ngFor="let star of product.rating; let i = index"
+                [ngClass]="{ far: i >= product.ratingValue }"
+              ></i>
+            </div>
+            <p class="price">{{ product.price | currency }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
