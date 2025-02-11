@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  backgroundImage = "url('../images/hero-images/crypto.jpeg') " ;
+  backgroundImage = "url('../images/hero-images/crypto.jpeg')" ;
   isSidebarOpen = false;
 
   toggleSidebar() {

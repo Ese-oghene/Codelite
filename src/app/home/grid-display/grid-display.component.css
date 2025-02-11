@@ -87,7 +87,7 @@
   /* Media query to adjust image and badge positioning on smaller screens */
   @media (max-width: 576px) {
     .card-img-top {
-      height: 100px;  /* Reduce image size on smaller screens */
+      height: 100px;  
     }
   
     .discount-badge {
