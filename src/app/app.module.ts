@@ -14,6 +14,7 @@ import { HeaderComponent } from './home/header/header.component';
 import { GridDisplayComponent } from './home/grid-display/grid-display.component';
 import { LastNewsComponent } from './home/last-news/last-news.component';
 import { InnovationComponent } from './home/innovation/innovation.component';
+import { PaymentMethodComponent } from './home/payment-method/payment-method.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { InnovationComponent } from './home/innovation/innovation.component';
     HeaderComponent,
     GridDisplayComponent,
     LastNewsComponent,
-    InnovationComponent
+    InnovationComponent,
+    PaymentMethodComponent
   ],
   imports: [
     BrowserModule,
