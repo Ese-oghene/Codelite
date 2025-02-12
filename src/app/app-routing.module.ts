@@ -7,9 +7,13 @@ import { ContactPageComponent } from './home/contact-page/contact-page.component
 import { AboutPageComponent } from './home/about-page/about-page.component';
 import { TestimonialPageComponent } from './home/testimonial-page/testimonial-page.component';
 import { HeaderComponent } from './home/header/header.component';
+import { LastNewsComponent } from './home/last-news/last-news.component';
+import { InnovationComponent } from './home/innovation/innovation.component';
 const routes: Routes = [
   { path: '', component: SlideDisplayComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'lastest-news', component: LastNewsComponent  },
+  { path: 'innovation', component: InnovationComponent  },
   { path: 'signup', component: SignupComponent },
   { path: 'contact', component: ContactPageComponent },
   { path: 'about', component: AboutPageComponent },

@@ -12,6 +12,8 @@ import { AboutPageComponent } from './home/about-page/about-page.component';
 import { TestimonialPageComponent } from './home/testimonial-page/testimonial-page.component';
 import { HeaderComponent } from './home/header/header.component';
 import { GridDisplayComponent } from './home/grid-display/grid-display.component';
+import { LastNewsComponent } from './home/last-news/last-news.component';
+import { InnovationComponent } from './home/innovation/innovation.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { GridDisplayComponent } from './home/grid-display/grid-display.component
     AboutPageComponent,
     TestimonialPageComponent,
     HeaderComponent,
-    GridDisplayComponent
+    GridDisplayComponent,
+    LastNewsComponent,
+    InnovationComponent
   ],
   imports: [
     BrowserModule,
