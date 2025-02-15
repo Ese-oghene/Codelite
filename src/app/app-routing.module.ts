@@ -10,12 +10,16 @@ import { HeaderComponent } from './home/header/header.component';
 import { LastNewsComponent } from './home/last-news/last-news.component';
 import { InnovationComponent } from './home/innovation/innovation.component';
 import { PaymentMethodComponent } from './home/payment-method/payment-method.component';
+import { TeamsComponent } from './home/teams/teams.component';
+import { RiskComponent } from './home/risk/risk.component';
 const routes: Routes = [
   { path: '', component: SlideDisplayComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'lastest-news', component: LastNewsComponent  },
-  { path: 'innovation', component: InnovationComponent  },
-  { path: 'payment', component: PaymentMethodComponent  },
+  { path: 'teams', component: TeamsComponent },
+  { path: 'risk', component:  RiskComponent  },
+  { path: 'lastest-news', component: LastNewsComponent },
+  { path: 'innovation', component: InnovationComponent },
+  { path: 'payment', component: PaymentMethodComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'contact', component: ContactPageComponent },
   { path: 'about', component: AboutPageComponent },

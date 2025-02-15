@@ -1,0 +1,22 @@
+.team-section{
+    background: #0c0c26;
+    color: white;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+  }
+  .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .rounded-circle {
+    border: 4px solid #ddd;
+  }
+
+  h1, h2 {
+    margin-bottom: 20px;
+  }

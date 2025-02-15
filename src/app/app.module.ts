@@ -15,6 +15,8 @@ import { GridDisplayComponent } from './home/grid-display/grid-display.component
 import { LastNewsComponent } from './home/last-news/last-news.component';
 import { InnovationComponent } from './home/innovation/innovation.component';
 import { PaymentMethodComponent } from './home/payment-method/payment-method.component';
+import { TeamsComponent } from './home/teams/teams.component';
+import { RiskComponent } from './home/risk/risk.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { PaymentMethodComponent } from './home/payment-method/payment-method.com
     GridDisplayComponent,
     LastNewsComponent,
     InnovationComponent,
-    PaymentMethodComponent
+    PaymentMethodComponent,
+    TeamsComponent,
+    RiskComponent
   ],
   imports: [
     BrowserModule,

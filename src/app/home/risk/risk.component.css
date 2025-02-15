@@ -1,0 +1,33 @@
+.crypto-section {
+    background: #f8f9fa;
+    position: relative;
+  }
+  
+  .bitcoin-img {
+    max-width: 80%;
+  }
+  
+  .businessman-img {
+    max-width: 100%;
+  }
+  
+  .speech-bubble {
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    max-width: 80%;
+  }
+  
+  .speech-bubble::after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+    transform: translateY(-50%);
+  }
+  
