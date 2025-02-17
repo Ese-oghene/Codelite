@@ -29,11 +29,27 @@
 
 /* Custom Signup Button */
 .signup {
-  background-color: #f94ca4;
+  background-color: var(--button-bg-color);
   padding: 6px 16px;
   border-radius: 20px;
   text-decoration: none;
   color: white;
+}
+.signup:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+.login{
+  background: #fff;
+  border-radius: 20px;
+  padding: 6px 16px;
+  color: var(--button-bg-color);
+  text-decoration: none;
+}
+
+.login:hover{
+  text-decoration: underline;
+  color: var(--button-bg-color);
 }
 
 /* Adjust Navbar Text */
@@ -45,3 +61,7 @@
   color: #f94ca4 !important;
 }
 
+.btn-p {
+  background: var(--button-bg-color);
+  color: #fff;
+}

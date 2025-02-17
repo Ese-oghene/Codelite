@@ -15,8 +15,13 @@
   }
 
 .btn-color{
-  background: #f94ca4 !important;
+  background: var(--button-bg-color) !important;
   color: #fff;
- outline: none;
+  outline: none;
+}
+
+.btn-color:hover{
+  text-decoration: underline;
+  color: #fff;
 }
   
