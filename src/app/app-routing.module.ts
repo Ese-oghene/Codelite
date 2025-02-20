@@ -12,11 +12,13 @@ import { InnovationComponent } from './home/innovation/innovation.component';
 import { PaymentMethodComponent } from './home/payment-method/payment-method.component';
 import { TeamsComponent } from './home/teams/teams.component';
 import { RiskComponent } from './home/risk/risk.component';
+import { DashboardComponent } from './home/dashboard/dashboard.component';
 const routes: Routes = [
   { path: '', component: SlideDisplayComponent },
   { path: 'login', component: LoginComponent },
   { path: 'teams', component: TeamsComponent },
   { path: 'risk', component:  RiskComponent  },
+  { path: 'dashboard', component:  DashboardComponent  },
   { path: 'lastest-news', component: LastNewsComponent },
   { path: 'innovation', component: InnovationComponent },
   { path: 'payment', component: PaymentMethodComponent },

@@ -17,6 +17,9 @@ import { InnovationComponent } from './home/innovation/innovation.component';
 import { PaymentMethodComponent } from './home/payment-method/payment-method.component';
 import { TeamsComponent } from './home/teams/teams.component';
 import { RiskComponent } from './home/risk/risk.component';
+import { DashboardComponent } from './home/dashboard/dashboard.component';
+import { ChartComponent } from './home/chart/chart.component';
+import { DataTableComponent } from './home/data-table/data-table.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,10 @@ import { RiskComponent } from './home/risk/risk.component';
     InnovationComponent,
     PaymentMethodComponent,
     TeamsComponent,
-    RiskComponent
+    RiskComponent,
+    DashboardComponent,
+    ChartComponent,
+    DataTableComponent
   ],
   imports: [
     BrowserModule,

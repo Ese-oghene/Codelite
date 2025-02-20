@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-md-6" *ngFor="let chart of [1, 2]; let i = index">
+    <div class="card">
+      <div class="card-header">
+        <span class="me-2">
+          <i class="bi" [ngClass]="i === 0 ? 'bi-bar-chart-fill' : 'bi-pie-chart-fill'"></i>
+        </span>
+        {{ i === 0 ? 'Bar Chart Example' : 'Pie Chart Example' }}
+      </div>
+      <div class="card-body">
+        <canvas id="chart{{chart}}" width="400" height="200"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+
+  

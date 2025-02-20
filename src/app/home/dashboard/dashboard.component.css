@@ -1,0 +1,77 @@
+.navbar{
+    background-color: #F8F9FC;
+    color: #495057;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.navbar .nav-link .badge {
+    position: absolute;
+    /* top: -5px; */
+    /* right: -10px; */
+    font-size: 10px;
+}
+
+
+.avatar{
+    width: 40px;
+    height: 40px;
+ }
+
+.sidebar-nav  {
+    width: var(--offcanvas-width) !important;
+    background-color: #1F3A93;
+    color: #FFFFFF;
+    min-height: 100vh;
+    padding-top: 1rem;
+  }
+  
+  .sidebar-link{
+      display: flex;
+      align-items: center;
+  }
+  
+  .sidebar-link .right-icon{
+      display: inline-flex;
+      transition: all ease 0.25s;
+  }
+  
+  .sidebar-link[aria-expanded="true"] .right-icon {
+      transform: rotate(180deg);
+    }
+
+    @media (min-width:992px){
+        body{
+            overflow: auto !important;
+        }
+        .offcanvas-backdrop::before{
+            display: none !important;
+        }
+    
+        main{
+            margin-left: var(--offcanvas-width);
+        }
+        .sidebar-nav {
+            -webkit-transform: none;
+            transform: none !important;
+            visibility: visible !important;
+            /* height: calc(100% - var(--topNavbarHeight)); */
+            /* top: var(--topNavbarHeight) !important; */
+          }
+    }
+    .dashboard-card {
+        border: none;
+        border-radius: 10px;
+        background-color: #f7f9fc;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .icon-container {
+        background-color: #e0f7fa;
+        border-radius: 50%;
+        padding: 10px;
+    }
+    .icon {
+        color: #223537;
+        font-size: 24px;
+    }
+/* 
+    color: #00bcd4; */
